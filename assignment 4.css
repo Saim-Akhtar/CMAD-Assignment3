@@ -1,0 +1,164 @@
+body{
+    border: 1px solid rgb(156, 154, 154);
+    height: 1000px;
+}
+*{
+    font-family: Verdana, sans-serif;
+    font-weight: lighter;
+}
+.heading_1{
+    display: inline-block;
+    font-size: 27px;
+    margin-left: 19px;
+}
+.first_pic{
+    height: 42px;
+    width: 42px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.fa-bars{
+    font-size: 27px;
+    margin-left: 34px;
+}
+.search_bar{
+    display: inline-block;
+    margin-left: 30px;
+    width: 1000px;
+    height: 40px;
+    padding-top: 10px;
+    border: 1px  solid;
+    border-color: rgb(156, 154, 154);
+    border-radius: 100px;
+}
+#search{
+    margin-left: 5px;
+    width: 96%;
+    font-size: 20px;
+    border: unset;
+}
+#search:focus{
+    outline: none;
+}
+.random_pic{
+    display: inline;
+    width: 3%;
+    height: 3%;
+    margin-left: 10%;
+    vertical-align: middle;
+}
+.main_body{
+    border-top: 1px solid rgb(156, 154, 154);
+    height: 93%;
+    background-color: rgb(228, 235, 238);
+    width: inherit;
+}
+.left_column{
+    float: left;
+    display: inline-block;
+    border-right: 1px solid rgb(156, 154, 154);
+    width: 360px;
+    height: 100%;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.navigations_options{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: -44px;
+}
+.options{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 17px;
+    height: 40px;
+    width: 98%;
+    padding-top: 5%;
+    margin-left: 5px;
+}
+.opt{
+    color: black;
+    margin-left: 18%;
+    transition: font-size .1s;
+}
+.op{
+    padding-right: 7%;
+}
+.first_opt:hover,.second_opt:hover,.third_opt:hover,.forth_opt:hover{
+    color: rgb(41, 171, 231);
+    font-size: 20px;
+}
+.first:hover,.second:hover,.third:hover,.forth:hover{
+    background-color: rgb(228, 235, 238);
+}
+.display{
+    display: inline-block;
+    padding: 3%;
+    width: 70.8%;
+}
+.show_part{
+    text-align: center;
+    margin: 20% 0 0 15%;
+}
+.fa-exclamation-triangle{
+    font-size: 90px;
+    opacity: 0.7;
+    transition: font-size .2s;
+}
+.fa-exclamation-triangle:hover{
+    color: rgb(99, 124, 8);
+    font-size: 120px;
+}
+#apology{
+    font-size: 30px;
+    text-transform: capitalize;
+    opacity: 0.7;
+    cursor: default;
+}
+/* the wholesale css part */
+.display> h1{
+    display: inline-block;
+    font-size: 25px;
+}
+.display> p{
+    font-size: 15px;
+}
+.display > button{
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    padding: 17px;
+    width: 200px;
+    border-radius: 6px;
+    background-color: rgb(24, 245, 53);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+.display > table{
+    margin-top: 26px;
+}
+table th,td{
+    display: inline-block;
+    text-align: left;
+    font-size: 14px;
+    padding: 20px 7px 20px 0px;
+}
+table .defaults{
+    width: 150px;
+    
+}
+table .serials,.qt{
+    width: 100px;
+}
+table .ct{
+    text-align: center;
+}
+table .products{
+    width: 250px;
+}
+table .filled{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+}
